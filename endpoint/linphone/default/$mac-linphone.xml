@@ -10,13 +10,13 @@
     <entry name="transient_provisioning" overwrite="true">1</entry> <!-- apply remote provisioning only once-->
   </section>
   <section name="nat_policy_default_values">
-    <entry name="stun_server">stun.linphone.org</entry>
+    <entry name="stun_server">stun.freeswitch.org</entry>
     <entry name="protocols">stun,ice</entry>
   </section>
 {% for line in lines %}
   <section name="nat_policy_0">
     <entry name="ref" overwrite="true">~OuCpkaPzCwyvMo</entry>
-    <entry name="stun_server" overwrite="true">stun.linphone.org</entry>
+    <entry name="stun_server" overwrite="true">stun.freeswitch.org</entry>
     <entry name="protocols" overwrite="true">stun,ice</entry>
   </section>
   <section name="auth_info_0" overwrite="true">
